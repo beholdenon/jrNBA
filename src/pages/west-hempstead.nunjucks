@@ -1,0 +1,55 @@
+{% extends "layout.nunjucks" %}
+
+
+
+{% block content %}
+      	
+        {% include "partials/league_nav.nunjucks" %}
+        
+        <div class="row collapse league-feature">
+          <div class="columns">
+            <div class="square"></div>
+            
+			
+			<h4> </h4>
+            <h3 class="ny">			New York</h3>
+            <h6>(Includes Albany/Schenectady Area)</h6>            <img src="http://jrnba3v3.com/wp-content/uploads/2017/09/feature_ny.jpg" alt="" width="1500" height="344">
+          </div>
+        </div>
+          
+          
+          <div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+		<div class="wpb_wrapper">
+			<div class="row event-info-row">
+<div class="columns medium-5 large-7"><img class="alignnone size-full wp-image-1808" src="https://i0.wp.com/jrnba3v3.com/wp-content/uploads/2017/09/jrNBA_photo_fpo.jpg?resize=555%2C489" alt="" width="674" height="594"></div>
+<div class="columns medium-7 large-5 events-desc">
+	
+	<p><b>Organization Name:</b><br> Lightning Basketball</p>
+	<p><b>League Dates:</b><br> To Be Determined</p>
+	<p><b>Registration Closes:</b><br> To Be Determined</p>
+<p><b>League Venue(s):</b><br>Island Garden<br>45 Cherry Valley Ave #1<br>
+  West Hempstead, NY 11552<br><br>Brewster Sports Center<br>19 Sutton Place<br>Brewster, NY 10509<br>
+  <br>Academy of St. Joseph<br>1725 Brentwood Road, Building 2<br>Brentwood, NY 11717<br>
+  <br>Bishop Gibbons High School<br>2600 Albany Street<br>Schenectady, NY 12304<br>
+  <br>Jewish Community Center<br>2565 Balltown Road<br>Schenectady, New York 12309<br>
+</p>
+
+
+	<p><b>League Fee:</b><br> $495</p>
+	<p><b>League Administrator:</b><br>Jim Fox</p>
+	<p><b>Contact Information:</b><br> (516) 292-4956<br>dusty22000@aol.com</p>
+<p><b>General Inquiries:</b><br>jrnba@nba.com</p>
+	<a href="http://newyork3v3.leagueapps.com/leagues/basketball" class="button">Register Now</a>
+
+</div>
+</div>
+
+		</div>
+	</div>
+</div></div></div></div>
+
+          {% include "partials/league_footer.nunjucks" %}
+          	
+        	
+{% endblock %}

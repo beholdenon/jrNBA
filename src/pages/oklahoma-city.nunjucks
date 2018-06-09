@@ -1,0 +1,46 @@
+{% extends "layout.nunjucks" %}
+
+
+
+{% block content %}
+      	
+        {% include "partials/league_nav.nunjucks" %}
+       <div class="row collapse league-feature">
+          <div class="columns">
+            <div class="square"></div>
+            
+			
+			<h4>Oklahoma City</h4>
+            <h3>			Oklahoma</h3>
+                        <img src="http://jrnba3v3.com/wp-content/uploads/2017/09/feature_ok.jpg" alt="" width="1500" height="344">
+          </div>
+        </div>
+        
+        <div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+		<div class="wpb_wrapper">
+			<div class="row event-info-row">
+<div class="columns medium-5 large-7"><img class="alignnone size-full wp-image-1808" src="https://i0.wp.com/jrnba3v3.com/wp-content/uploads/2017/09/jrNBA_photo_fpo.jpg?resize=555%2C489" alt="" width="674" height="594"></div>
+<div class="columns medium-7 large-5 events-desc">
+	
+	<p><b>Organization Name:</b><br>Solid Rock Basketball</p>
+	<p><b>League Dates:</b><br> January 21 &amp; 28<br>February 4, 11, 18, &amp; 25<br>March 11</p>
+	<p><b>Registration Closes:</b><br> January 16</p>
+<p><b>League Venue(s):</b><br>Solid Rock Basketball<br>140 W 15th St, Edmond, OK 73013</p>
+	<p><b>League Fee:</b><br> $425</p>
+	<p><b>League Administrator:</b><br>JoAnna Wiginton</p>
+	<p><b>Contact Information:</b><br> (405) 697-5242<br>joanna@solidrockbasketball.com</p>
+<p><b>General Inquiries:</b><br>jrnba@nba.com</p>
+	<a href="http://oklahomacity3v3.leagueapps.com/leagues/basketball" class="button">Register Now</a>
+
+</div>
+</div>
+		</div>
+	</div>
+</div></div></div></div>
+
+
+          {% include "partials/league_footer.nunjucks" %}
+          	
+        	
+{% endblock %}

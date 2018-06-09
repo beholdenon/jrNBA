@@ -1,0 +1,82 @@
+<div class="row small-collapse container">
+	<div class="large-12 columns">
+  	<div class="row small-collapse container">
+    	<div class="large-12 columns events-page-container">
+      	
+      	<div class="league-header">
+	<h1>Leagues</h1>
+</div>
+<div class="row league-city-grid">
+  <div class="column-block columns">
+    <a href="atlanta.html">
+    <h3>Georgia</h3>
+      <img src="./images/atlanta_a.jpg" class="city-photo">
+      <img src="./images/hp-grid-white.gif" class="city-photo-bg">
+    </a>
+  </div>
+  <div class="column-block columns">
+    <a href="walnut-creek.html">
+    <h3>California</h3>
+      <img src="./images/walnut_creek_a.jpg" class="city-photo">
+      <img src="./images/hp-grid-white.gif" class="city-photo-bg">
+    </a>
+  </div>
+  <div class="column-block columns">
+    <a href="west-hempstead.html">
+    <h3>New York</h3>
+      <img src="./images/new_york_a.jpg" class="city-photo">
+    <img src="./images/hp-grid-white.gif" class="city-photo-bg"></a>
+  </div>
+  <div class="column-block columns">
+    <a href="salt-lake-city.html">
+    <h3>Utah</h3>
+      <img src="./images/utah_b.jpg" class="city-photo-hover" style="opacity: 1; display: none; visibility: visible;">
+      <img src="./images/utah_a.jpg" class="city-photo">
+    <img src="./images/hp-grid-white.gif" class="city-photo-bg"></a>
+  </div>
+  <div class="column-block columns">
+    <a href="aurora.html">
+    <h3>Illinois</h3>
+      <img src="./images/illinois_b.jpg" class="city-photo-hover" style="opacity: 1; display: none; visibility: visible;">
+      <img src="./images/illinois_a.jpg" class="city-photo">
+    <img src="./images/hp-grid-white.gif" class="city-photo-bg"></a>
+  </div>
+  <div class="column-block columns">
+    <a href="westfield.html">
+    <h3>Indiana</h3>
+      <img src="./images/indiana_b.jpg" class="city-photo-hover" style="opacity: 1; display: none; visibility: visible;">
+      <img src="./images/indiana_a.jpg" class="city-photo">
+    <img src="./images/hp-grid-white.gif" class="city-photo-bg"></a>
+  </div>
+  <div class="column-block columns">
+    <a href="vancouver.html">
+    <h3>Washington</h3>
+      <img src="./images/washington_b.jpg" class="city-photo-hover" style="opacity: 1; display: none; visibility: visible;">
+      <img src="./images/washington_a.jpg" class="city-photo">
+    <img src="./images/hp-grid-white.gif" class="city-photo-bg"></a>
+  </div>
+  <div class="column-block columns">
+    <a href="charlotte.html">
+    <h3>North Carolina</h3>
+      <img src="./images/carolina_b.jpg" class="city-photo-hover" style="opacity: 1; display: none; visibility: visible;">
+      <img src="./images/carolina_a.jpg" class="city-photo">
+    <img src="./images/hp-grid-white.gif" class="city-photo-bg"></a>
+  </div>
+  <div class="column-block columns">
+    <a href="oklahoma-city.html">
+    <h3>Oklahoma</h3>
+      <img src="./images/oklahoma_b.jpg" class="city-photo-hover" style="opacity: 1; display: none; visibility: visible;">
+      <img src="./images/oklahoma_a.jpg" class="city-photo">
+    <img src="./images/hp-grid-white.gif" class="city-photo-bg"></a>
+  </div>
+  <div class="column-block columns">
+    <a href="whippany.html">
+    <h3>New Jersey</h3>
+      <img src="./images/jersey_b.jpg" class="city-photo-hover" style="opacity: 1; display: none; visibility: visible;">
+      <img src="./images/jersey_a.jpg" class="city-photo">
+    <img src="./images/hp-grid-white.gif" class="city-photo-bg"></a>
+  </div>
+</div>
+
+    
+

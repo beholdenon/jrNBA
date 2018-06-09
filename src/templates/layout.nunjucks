@@ -1,0 +1,97 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JR. NBA 3v3</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Roboto:400,700" rel="stylesheet">
+    <link href="./css/app.css" rel="stylesheet">
+  </head>
+  <body>
+<button id="responsive-menu-pro-button" class="responsive-menu-pro-button responsive-menu-pro-boring
+         responsive-menu-pro-accessible" type="button" aria-label="Menu">
+
+    <span class="responsive-menu-pro-box">
+        <span class="responsive-menu-pro-inner"></span>
+    </span>
+    </button>
+    
+    
+    <div id="responsive-menu-pro-container" class="slide-left">
+    <div id="responsive-menu-pro-wrapper"><ul id="responsive-menu-pro" class="">
+      <li id="responsive-menu-pro-item-1784" class=" menu-item menu-item-type-custom menu-item-object-custom responsive-menu-pro-item"><a href="http://jrnba.com" class="responsive-menu-pro-item-link">Back to Jr. NBA Site</a>
+      </li><li id="responsive-menu-pro-item-1824" class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home responsive-menu-pro-item responsive-menu-pro-current-item">
+      <a href="./" class="responsive-menu-pro-item-link">Home</a></li>
+      <li id="responsive-menu-pro-item-1929" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-pro-item">
+      <a href="atlanta.html" class="responsive-menu-pro-item-link">Leagues</a></li>
+        <li id="responsive-menu-pro-item-81" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-pro-item">
+          <a href="gallery.html" class="responsive-menu-pro-item-link">Gallery</a>
+        </li>
+      <li id="responsive-menu-pro-item-2013" class=" menu-item menu-item-type-custom menu-item-object-custom responsive-menu-pro-item"><a href="http://jrnba3v3.com/wp-content/uploads/2017/10/JrNBA_3v3_ResourceGuide.pdf" class="responsive-menu-pro-item-link">3v3 Resource Guide</a></li></ul>                                                                </div>
+<div class="side-menu-bottom-buttons"><ul><li><a href="http://jrnba.com"><img src="./images/jrnba_logo_left_nav.jpg"></a></li></ul><div class="left-nav-links"><a href="http://www.nba.com/news/termsofuse/">Terms &amp; Conditions</a> &nbsp;&nbsp;&nbsp;<a href="http://www.nba.com/news/privacy_policy.html">Privacy Policy</a><span class="copyright">©2017 Jr NBA. All rights reserved</span></div></div></div>
+
+  <div class="nba-header">
+	  <div class="header-logo-container">
+		  <a href="./">
+		  	  <img src="./images/jrnba_logo.jpg" alt="Jr. NBA 3v3 Leagues" class="jrnba-logo">
+		  </a>
+	  	  <a href="./">
+		  	  <img src="./images/3v3_leagues_logo.jpg" alt="Jr. NBA 3v3 Leagues" class="leagues-logo">
+	  	  </a>
+	  	  <a href="https://www.shockdoctor.com">
+		  	  <img src="./images/shock_doctor_logo.jpg" alt="Shock Doctor" class="sponsor-logo">
+		  </a>
+		  <div class="nba-header-middle">
+		</div>
+	  </div>
+  </div>
+  
+  <!-- Content -->
+
+  <!-- You write code for this content block in another file -->
+  {% block content %} {% endblock %}
+
+ <!-- Content -->
+  
+<div class="footer">
+      <div class="row">
+        <div class="columns medium-6">
+          <div class="logos">
+            <a href="http://www.nba.com">
+              <img class="nba" src="./images/footer_logo_nba.jpg" alt="NBA">
+            </a>
+            <a href="http://www.wnba.com">
+              <img class="wnba" src="./images/footer_logo_wnba.jpg" alt="WNBA">
+            </a>
+            <a href="http://gleague.nba.com">
+              <img class="gleague" src="./images/footer_logo_dleague.jpg" alt="NBA Development League">
+            </a>
+            <a href="http://jrnba.com">
+              <img class="jrnba" src="./images/footer_logo_jrnba.jpg" alt="Jr. NBA">
+            </a>
+          </div>
+        </div>
+        <div class="columns medium-6">
+          <div class="copyright">
+            <a href="http://www.nba.com/news/termsofuse/">
+             Terms of Use
+            </a> | 
+             <a href="http://www.nba.com/news/privacy_policy.html">
+             Privacy Policy
+            </a>
+             | ©2018 Jr NBA. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    	
+
+    <script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflnjBBxk/www-widgetapi.js" async=""></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="./js/app.js"></script>
+
+    
+  </body>
+</html>

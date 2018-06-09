@@ -1,0 +1,46 @@
+{% extends "layout.nunjucks" %}
+
+
+
+{% block content %}
+      	
+        {% include "partials/league_nav.nunjucks" %}
+       <div class="row collapse league-feature">
+          <div class="columns">
+            <div class="square"></div>
+            
+			
+			<h4>Whippany</h4>
+            <h3>			New Jersey</h3>
+                        <img src="http://jrnba3v3.com/wp-content/uploads/2017/09/feature_nj.jpg" alt="" width="1500" height="344">
+          </div>
+        </div>
+        
+        <div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+		<div class="wpb_wrapper">
+			<div class="row event-info-row">
+<div class="columns medium-5 large-7"><img class="alignnone size-full wp-image-1808" src="https://i0.wp.com/jrnba3v3.com/wp-content/uploads/2017/09/jrNBA_photo_fpo.jpg?resize=555%2C489" alt="" width="674" height="594"></div>
+<div class="columns medium-7 large-5 events-desc">
+	
+	<p><b>Organization Name:</b><br>Hoop Heaven</p>
+	<p><b>League Dates:</b><br>February 14 thru March 17/18<br>One day tournament for all girls divisions and 10U boys division will be held on March 17</p>
+	<p><b>Registration Closes:</b><br> Registration is still open for the one-day tournament</p>
+<p><b>League Venue(s):</b><br>Hoop Heaven<br>125 Algonquin Parkway, Whippany, NJ 07981</p>
+	<p><b>League Fee:</b><br> One day tournament (3-game guarantee) -  $135</p>
+	<p><b>League Administrator:</b><br>Mitchell Storch</p>
+	<p><b>Contact Information:</b><br> (973) 884-4667<br>hoopheaven@optonline.net</p>
+<p><b>General Inquiries:</b><br>jrnba@nba.com</p>
+	<a href="http://newjersey3v3.leagueapps.com/leagues/basketball" class="button">Register Now</a>
+
+</div>
+</div>
+		</div>
+	</div>
+</div></div></div></div>
+
+
+          {% include "partials/league_footer.nunjucks" %}
+          	
+        	
+{% endblock %}

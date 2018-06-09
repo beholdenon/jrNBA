@@ -1,0 +1,46 @@
+{% extends "layout.nunjucks" %}
+
+
+
+{% block content %}
+      	
+        {% include "partials/league_nav.nunjucks" %}
+        
+       <div class="row collapse league-feature">
+          <div class="columns">
+            <div class="square"></div>
+            
+			
+			<h4>Aurora</h4>
+            <h3>			Illinois</h3>
+                        <img src="http://jrnba3v3.com/wp-content/uploads/2017/09/feature_il.jpg" alt="" width="1500" height="344">
+          </div>
+        </div>
+        
+        <div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+		<div class="wpb_wrapper">
+			<div class="row event-info-row">
+<div class="columns medium-5 large-7"><img class="alignnone size-full wp-image-1808" src="https://i0.wp.com/jrnba3v3.com/wp-content/uploads/2017/09/jrNBA_photo_fpo.jpg?resize=555%2C489" alt="" width="674" height="594"></div>
+<div class="columns medium-7 large-5 events-desc">
+	
+	<p><b>Organization Name:</b><br>Supreme Courts</p>
+	<p><b>League Dates:</b><br> Qualifier Tournaments (Top 2 finishers qualify for Chicago Region Championship):<br>February 19 (Multiple Locations)<br>March 2 &amp; 9 (Multiple Locations)<br><br><b>Chicago Region Championship:</b><br>March 11</p>
+	<p><b>Registration Closes:</b><br> Five days before each event</p>
+<p><b>League Venue(s):</b><br>Multiple sites throughout Chicagoland/Illinois<br><br>Check Supreme Courts website for details and locations near you: <a href="http://www.supremecourtsbasketball.com">www.supremecourtsbasketball.com</a></p>
+	<p><b>League Fee:</b><br> $25 per player (3-5 players per team)</p>
+	<p><b>League Administrator:</b><br>Todd Wolfe</p>
+	<p><b>Contact Information:</b><br> (630) 222-4386<br>twolfe@supremecourtsbasketball.com</p>
+<p><b>General Inquiries:</b><br>jrnba@nba.com</p>
+	<a href="http://chicago3v3.leagueapps.com/leagues/basketball" class="button">Register Now</a>
+
+</div>
+</div>
+		</div>
+	</div>
+</div></div></div></div>
+
+          {% include "partials/league_footer.nunjucks" %}
+          	
+        	
+{% endblock %}

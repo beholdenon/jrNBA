@@ -1,0 +1,49 @@
+{% extends "layout.nunjucks" %}
+
+
+
+{% block content %}
+      	
+        {% include "partials/league_nav.nunjucks" %}
+        
+        <div class="row collapse league-feature">
+          <div class="columns">
+            <div class="square"></div>
+              <h4>Atlanta</h4>
+              <h3>Georgia</h3>
+              <img src="./images/feature_at.jpg" alt="" width="1500" height="344">
+            </div>
+          </div>
+          <div class="vc_row wpb_row vc_row-fluid">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+              <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                  <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                    <div class="wpb_wrapper">
+                      <div class="row event-info-row">
+                        <div class="columns medium-5 large-7">
+                          <img class="alignnone size-full wp-image-1808" src="https://i0.wp.com/jrnba3v3.com/wp-content/uploads/2017/09/jrNBA_photo_fpo.jpg?resize=555%2C489" alt="" width="763" height="673">
+                        </div>
+                        <div class="columns medium-7 large-5 events-desc">
+                          <p><b>Organization Name:</b><br> The-Skill-Factory</p>
+                          <p><b>League Dates:</b><br> February 24 thru March 24</p>
+                          <p><b>Registration Closes:</b><br> February 9</p>
+                          <p><b>League Venue(s):</b><br> The Galloway School<br>215 W Wieuca Rd NW, Atlanta, GA 30342</p>
+                          <p><b>League Fee:</b><br>Team ($375)<br>Free Agent ($100)</p>
+                          <p><b>League Administrator:</b><br> Josh Burr</p>
+                          <p><b>Contact Information:</b><br> (678) 337-8524<br>Info@The-Skill-Factory.com</p>
+                          <p><b>General Inquiries:</b><br>jrnba@nba.com</p>
+                          <a href="http://atlanta3v3.leagueapps.com/leagues/basketball" class="button">Register Now</a>
+                        </div>
+                      </div>
+                    </div>
+          	      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {% include "partials/league_footer.nunjucks" %}
+          	
+        	
+{% endblock %}

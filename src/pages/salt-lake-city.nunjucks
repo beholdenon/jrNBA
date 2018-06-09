@@ -1,0 +1,46 @@
+{% extends "layout.nunjucks" %}
+
+
+
+{% block content %}
+      	
+        {% include "partials/league_nav.nunjucks" %}
+        
+       <div class="row collapse league-feature">
+          <div class="columns">
+            <div class="square"></div>
+            
+			
+			<h4>Salt Lake City</h4>
+            <h3>			Utah</h3>
+                        <img src="http://jrnba3v3.com/wp-content/uploads/2017/09/feature_ut.jpg" alt="" width="1500" height="344">
+          </div>
+        </div>
+        
+        <div class="vc_row wpb_row vc_row-fluid"><div class="row small-collapse container wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+		<div class="wpb_wrapper">
+			<div class="row event-info-row">
+<div class="columns medium-5 large-7"><img class="alignnone size-full wp-image-1808" src="https://i0.wp.com/jrnba3v3.com/wp-content/uploads/2017/09/jrNBA_photo_fpo.jpg?resize=555%2C489" alt="" width="674" height="594"></div>
+<div class="columns medium-7 large-5 events-desc">
+	
+	<p><b>Organization Name:</b><br>Utah Jazz</p>
+	<p><b>League Dates:</b><br>March 1 (Girls Pool Play)<br>March 2 (Boys Pool Play)<br>March 3 (Championships)</p>
+	<p><b>Registration Closes:</b><br> February 28</p>
+<p><b>League Venue(s):</b><br>Salt Lake Community College<br>4600 S Redwood Road<br>Salt Lake City, UT 84123</p>
+	<p><b>League Fee:</b><br> $299</p>
+	<p><b>League Administrator:</b><br>Nate Martinez</p>
+	<p><b>Contact Information:</b><br> (801) 325-2573<br>nmartinez@utahjazz.com</p>
+<p><b>General Inquiries:</b><br>jrnba@nba.com</p>
+	<a href="http://utah3v3.leagueapps.com/leagues/basketball" class="button">Register Now</a>
+
+</div>
+</div>
+		</div>
+	</div>
+</div></div></div></div>
+
+          {% include "partials/league_footer.nunjucks" %}
+          	
+        	
+{% endblock %}
